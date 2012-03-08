@@ -1,0 +1,9 @@
+== MM_FontSwitcher ==
+
+Prerequisites
+
+copy ".fonts.conf" into "~/" (Home Directory)
+copy "tharlon.ttf" into "/usr/share/fonts/mm" or "~/.fonts"
+
+In Ubuntu 11.10(Unity) - 
+add extra string "mm_FontSwitcher.py" in dconf > desktop > unity > panel > systray-whitelist
