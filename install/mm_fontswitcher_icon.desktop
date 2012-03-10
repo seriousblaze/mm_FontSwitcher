@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/usr/share/icons/gnome/256x256/apps/preferences-desktop-font.png
+Exec=/home/yeminn/.mm_FontSwitcher/mm_FontSwitcher.py
+Name[en_US]=MM_FontSwitcher
+Comment[en_US]=Myanmar Font Switcher
+Name=MM_FontSwitcher
+Comment=Myanmar Font Switcher
+Icon=/usr/share/icons/gnome/256x256/apps/preferences-desktop-font.png

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+MMFS=", 'mm_FontSwitcher.py'"
+P_ENTRIES=$(gsettings get com.canonical.Unity.Panel "systray-whitelist")
+P_ENTRIES=${P_ENTRIES#[}
+P_ENTRIES=${P_ENTRIES%]}
+P_ENTRIES=${P_ENTRIES//", 'mm_FontSwitcher.py'"/""}
+
+if [[ $1 == "add" ]]; then
+    gsettings set com.canonical.Unity.Panel "systray-whitelist" "[${P_ENTRIES}${MMFS}]"
+elif [[ $1 == "remove" ]]; then
+	gsettings set com.canonical.Unity.Panel "systray-whitelist" "[${P_ENTRIES}]"  
+fi
