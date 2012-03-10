@@ -1,9 +1,58 @@
 == MM_FontSwitcher ==
 
-Prerequisites
+--About--
 
-copy ".fonts.conf" into "~/" (Home Directory)
-copy "tharlon.ttf" into "/usr/share/fonts/mm" or "~/.fonts"
+	MM_FontSwitcher is a Gtk based Python script that can change the default fallback font of Ubuntu, especially 11.10, by clicking on the StatusIcon. This application is dedicated to the Ubuntu users who want to switch the system font easily between Zawgyi-One and Unicode standard font(used Tharlon for this applicaiton).
 
-In Ubuntu 11.10(Unity) - 
-add extra string "mm_FontSwitcher.py" in dconf > desktop > unity > panel > systray-whitelist
+
+--Install--
+
+1. Extract the downloaded Zip
+2. Open the Terminal and change the directory into Extracted Folder
+3. Type the command 'make'
+4. Now you can find MM_FontSwitcher in Application list or Unity Dashboard Search
+
+Note : To run the script on startup, you can use the script path "~/.mm_FontSwitcher/mm_FontSwitcher.py" for the Command in "Startup Applications".
+
+--Uninstall--
+
+1. Open the Terminal and change the directory into Extracted Folder(mm_FontSwitcher)
+2. Type the command 'make uninstall'
+
+
+--Acknowledgements--
+
+	Special thanks to Ko Thura Hlaing for help and Ko Ngwe Tun and Ko Sai Zin Di Di Zone for Tharlon Font.
+
+
+--Contact--
+
+Naing Ye` Minn
+Ubuntu Myanmar LoCo Team
+naingyeminn@gmail.com
+http://seriousblaze.u4mm.com
+
+
+--License--
+
+MIT License
+
+Copyright (C) <2012> <Naing Ye Minn - Ubuntu Myanmar LoCo Team>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
