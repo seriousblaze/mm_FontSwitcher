@@ -1,6 +1,7 @@
 install: uninstall
 	mkdir ~/.mm_FontSwitcher
 	cp -fv mm_FontSwitcher.py ~/.mm_FontSwitcher
+	mkdir -p ~/.fonts
 	cp -fv tharlon.ttf ~/.fonts
 	cp -fv .fonts.conf ~/
 	cp -fv ./install/mm_fontswitcher_icon.desktop ~/.local/share/applications
