@@ -3,7 +3,7 @@
 from gi.repository import Gtk, Gdk
 from subprocess import *
  
-class aStatusIcon:
+class MM_FontSwitcher:
     def __init__ (self):
         self.statusicon = Gtk.StatusIcon()
         self.statusicon.set_from_stock(Gtk.STOCK_SELECT_FONT)
@@ -108,11 +108,11 @@ class aStatusIcon:
         about_dialog.set_version("1.0")
         about_dialog.set_authors(["Naing Ye` Minn", "Thura Hlaing"])
         about_dialog.set_website("http://seriousblaze.u4mm.com")
-        about_dialog.set_website_label("http://seriousblaze.u4mm.com")
-        about_dialog.set_comments("This application can switch the default fallback font \nbetween Zawgyi-One and Myanmar Unicode (TharLon) \nin Ubuntu 11.10 (Unity).")
+        about_dialog.set_website_label("http:/adfa/seriousblaze.u4mm.com")
+        about_dialog.set_comments("This application can switch the default fallback font \nbetween Zawgyi-One and Myanmar Unicode (TharLon) \nin Ubuntu 11.10.")
 
         about_dialog.run()
         about_dialog.destroy()
 
-aStatusIcon()
+MM_FontSwitcher()
 Gtk.main()

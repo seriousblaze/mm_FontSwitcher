@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/usr/share/icons/gnome/256x256/apps/fonts.png
+Name[en_US]=MM Font Switcher
+Exec=sh -c "$HOME/.mm_FontSwitcher/mm_FontSwitcher.py"
+Comment[en_US]=Myanmar Font Switcher between Unicode and Zawgyi-One
+Name=MM Font Switcher
+Comment=Myanmar Font Switcher between Unicode and Zawgyi-One
+Icon=/usr/share/icons/gnome/256x256/apps/fonts.png
