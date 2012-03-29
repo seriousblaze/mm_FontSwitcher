@@ -4,7 +4,7 @@ install: uninstall
 	mkdir -p ~/.fonts
 	cp -fv tharlon.ttf ~/.fonts
 	cp -fv .fonts.conf ~/
-	cp -fv ./install/mm-fontswitcher-icon.desktop ~/.local/share/applications
+	cp -fv ./install/mm-fontswitcher-icon.desktop ~/.local/share/applications/
 	./install/traylist add
 
 uninstall:
